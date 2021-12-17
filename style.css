@@ -9,14 +9,18 @@ body {
     background-color: #141922;
 }
 
-.header {
+.container-upgrade {
     width: 80%;   
     float: right; 
 }
 
-.main {
+.container-songlist {
     width: 80%;   
     float: right;
+}
+
+.mrg-left-15 {
+    margin-left: 15px;
 }
 
 footer {
@@ -25,9 +29,9 @@ footer {
 }
 
 /* Sezione Upgrade */
-.container-upgrade {
+.box-upgrade {
     width: 80%;
-    height: 80px;
+    height: 70px;
     background-color: #010718;
     opacity: 0.6;
     position: fixed;
@@ -43,7 +47,7 @@ footer {
     border-radius: 40px;
     text-decoration: none;
     padding: 10px 20px;
-    font-size: 13px
+    font-size: 13px;
 }
 /* Sezione Upgrade */
 
@@ -52,8 +56,7 @@ footer {
     width: 100%;
     height: 50px;
     background-color: #141922;
-    margin-top: 80px;
-    
+    margin-top: 70px;
 }
 
 .menu-header {
@@ -75,12 +78,47 @@ footer {
 /* Sezione Menu */
 
 /* Sezione Song-list */
-.container-songlist {
-    width: 100%;
+.box-songlist {
+    width: 97%;
+    margin: auto;
     height: 800px;
     background-color: #141922;
     margin-top: 0px;
     overflow: hidden;
+
+}
+
+.row {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.song {
+    width: 160px;
+    height: 250px;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-songlist {
+    text-align: center;
+    color: #787B7F;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.img-row {
+    height: 160px;
+    margin-top: 25px;
+}
+
+.songlist-title {
+    color: #fff;
 }
 
 /* Sezione Song-list */
