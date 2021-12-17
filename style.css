@@ -23,6 +23,14 @@ body {
     margin-left: 15px;
 }
 
+.mrg-top-15 {
+    margin-top: 15px;
+}
+
+.mrg-top-60 {
+    margin-top: 60px;
+}
+
 footer {
     width: 100%;
     float: right;
@@ -80,8 +88,8 @@ footer {
 /* Sezione Song-list */
 .box-songlist {
     width: 97%;
+    height: 1050px;
     margin: auto;
-    height: 800px;
     background-color: #141922;
     margin-top: 0px;
     overflow: hidden;
@@ -89,7 +97,6 @@ footer {
 }
 
 .row {
-    margin-top: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -112,6 +119,12 @@ h4 {
     font-size: 13px;
 }
 
+.info-title {
+    color: #787B7F;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
 .img-row {
     height: 160px;
     margin-top: 25px;
@@ -121,6 +134,9 @@ h4 {
     color: #fff;
 }
 
+.circle {
+    border-radius: 50%;
+}
 /* Sezione Song-list */
 
 /* Sezione Sidebar */
