@@ -142,7 +142,7 @@ a {
 
 .box-songlist {
     width: 100%;
-    height: 1350px;
+    height: 1200px;
     background-color: #141922;
 }
 
@@ -193,7 +193,7 @@ h4 {
     color: #787B7F;
     margin-top: 10px;
     font-size: 13px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .img-row {
@@ -203,7 +203,7 @@ h4 {
 
 .songlist-title {
     color: #fff;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .circle {
@@ -232,6 +232,14 @@ h4 {
     padding-top: 20px;
     padding-left: 15px;
 } 
+
+
+.logo-2 {
+    width: 55px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: none;
+}
 
 .menu-side {
     margin-top: 15px;
@@ -439,7 +447,6 @@ h4 {
 
 .container-sound-item {
     margin-top: 40px;
-    width: 250px;
     display: flex;
 }
 
@@ -598,127 +605,56 @@ h4 {
     }
 
     .songlist-title {
-        padding-left: 50px;
+        padding-left: 70px;
     }
     
     .info-title {
-        padding-left: 50px;
+        padding-left: 70px;
     }
-
 }
 
 @media only screen and (max-width: 1150px) {
 
+    .box-songlist {
+        height: 1100px;
+    }
+
     .row {
         padding-left: 70px;
     }
 
     .songlist-title {
-        padding-left: 70px;
+        padding-left: 85px;
     }
     
     .info-title {
-        padding-left: 70px;
+        padding-left: 85px;
     }
-
 }
 
 @media only screen and (max-width: 1000px) {
 
+    .box-songlist {
+        height: 1100px;
+    }
+
     .row {
         padding-left: 100px;
     }
 
     .songlist-title {
-        padding-left: 100px;
+        padding-left: 120px;
     }
     
     .info-title {
-        padding-left: 100px;
+        padding-left: 120px;
     }
 
     .box-menu {
         width: 90%;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 115px;
-    }
-
-}
-
-@media only screen and (max-width: 991px) {
-
-    .row {
-        flex-wrap: wrap;
-    }
-
-    .song {
-        width: 22%;
-        font-size: 19px;
-    }
-
-    .info-songlist {
-        font-size: 16px;
-    }
-
-    .playlist-link {
-        font-size: 16px;
-    }
-
-    #playlist {
-        font-size: 16px;
-    }
-
-    h5 {
-        font-size: 18px;
-    }
-
-    .song-name {
-        font-size: 14px;
-    }
-
-    .artist {
-        font-size: 16px;
-    }
-
-    .container-menu {
-        flex-wrap: wrap;
-        margin-right: 40px;
-        margin-bottom: 40px;
-    }
-
-    .menu-link {
-        font-size: 18px;
-    }
-
-    .container-songlist {
-        height: 1650px;
-    }
-
-}
-
-@media only screen and (max-width: 900px) {
-
-    .fnt-size-40 {
-        font-size: 25px;
-    }
-
-    .gestione-tempo {
-        justify-content: space-around;
-    }
-
-    .time {
-        font-size: 13px;
-    }
-
-    .box-sound-item {
-        width: 85px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .barra-tempo {
-        width: 55%;
+        margin-left: 60px;
     }
 }
 
@@ -729,17 +665,20 @@ h4 {
     }
 
     .songlist-title {
-        padding-left: 120px;
+        padding-left: 125px;
+    }
+
+    .box-menu {
+        padding-left: 45px;
     }
     
     .info-title {
-        padding-left: 120px;
+        padding-left: 125px;
     }
 
     .song {
         width: 30%;
         font-size: 19px;
-        padding: 0px 10px;
     }
 
     .info-songlist {
@@ -776,30 +715,36 @@ h4 {
         font-size: 20px;
     }
 
-    .container-songlist {
-        height: 1650px;
+    .box-songlist {
+        height: 1500px;
+    }
+
+    .container-sound-item {
+        margin-top: 40px;
+        width: 170px;
+        display: flex;
     }
 
     .box-sound-item {
-        width: 85px;
+        width: 170px;
         display: flex;
         justify-content: flex-end;
     }
-    
-    .barra-play {
-        margin-right: 10px;
-    }
 
     .tempo {
-        padding-left: 40px;
+        width: 100%;
     }
 
     .barra-tempo {
-        width: 55%;
+        width: 80%;
     }
 
     .time {
         font-size: 13px;
+    }
+
+    .barra-play {
+        justify-content: center;
     }
 
     .item {
@@ -816,8 +761,172 @@ h4 {
 
     .gestione-tempo {
         justify-content: space-around;
+        width: 200px;
+        
+    }
+
+    .info-brano {
+        width: 140px;
     }
 }
 
+@media only screen and (max-width: 700px) {
 
+    .box-songlist {
+        height: 1900px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .songlist-title {
+        padding-left: 140px;
+    }
+    
+    .info-title {
+        padding-left: 140px;
+    }
+
+    .song {
+        width: 30%;
+        font-size: 19px;
+        padding-left: 15px;
+    }
+
+    .box-sound-item {
+        width: 190px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container-menu {
+        flex-wrap: wrap;
+        margin-right: 10px;
+        margin-bottom: 60px;
+    }
+
+    .gestione-tempo {
+        justify-content: space-between;
+        width: 145px;
+    }
+
+    .container-sound-item {
+        margin-top: 40px;
+        width: 160px;
+        display: flex;
+    }
+
+    .barra-play {
+        justify-content: center;
+    }
+
+    .song {
+        width: 45%;
+    }
+
+    .menu-link {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .box-songlist {
+        height: 2050px;
+    }
+
+    .row {
+        padding-left: 70px;
+    }
+
+    .songlist-title {
+        padding-left: 85px;
+    }
+    
+    .info-title {
+        padding-left: 85px;
+    }
+
+    .box-menu {
+        margin-left: 30px;
+    }
+
+    .menu-link {
+        font-size: 20px;
+    }
+
+    .song {
+        width: 45%;
+        padding-left: 0px;
+    }
+
+    .container-songlist {
+        width: 100%;
+    }
+
+    .app {
+        margin-top: 370px;
+    }
+
+    .sidebar {
+        width: 60px;
+    }
+
+    .container-sound-item {
+        margin-top: 40px;
+        width: 140px;
+        display: flex;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-2 {
+        display: block;
+    }
+
+    .side-link {
+        display: none;
+    }
+
+    .crea-playlist {
+        display: none;
+    }
+
+    .menu-playlist {
+        display: none;
+    }
+
+    .testo {
+        display: none;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .separazione {
+        display: none;
+    }
+
+    .installa-app {
+        padding-left: 6px;
+        font-size: 18px;
+    }
+
+    .link-account {
+        font-size: 30px;
+    }
+
+    .fnt-size-20 {
+        font-size: 27px;
+    }
+
+    .select-left {
+        box-sizing: border-box;
+        border-left: 0px solid #ADFF2F;
+    }
+}
 /* Responsive */
