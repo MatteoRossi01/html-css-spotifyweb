@@ -11,57 +11,151 @@
 </head>
     <body>
 
-        <!-- Header -->
         <header>
+        </header>
+    
+        <main class="clearfix">
+
+            <!-- Upgrade -->
             <div class="container-upgrade">
-                <!-- Barra upgrade -->
                 <div class="box-upgrade">
                     <a href="#" class="btn-upgrade">
                         EFFETTUA L'UPGRADE
                     </a>
                 </div>
-                <!-- Barra upgrade -->
             </div>
-            <!-- Sezione menu -->
-            <div class="container-menu">
+            <!-- Upgrade -->
 
-                <span class="menu-item">
-                    <a class="menu-link" href="#">IN EVIDENZA</a>
-                    <div class="select-bottom"></div>
-                </span>
-                <span class="menu-item">
-                    <a class="menu-link" href="#">PODCAST</a>
-                </span>
-                <span class="menu-item">
-                    <a class="menu-link" href="#">CLASSIFICHE</a>
-                </span>
-                <span class="menu-item">
-                    <a class="menu-link" href="#">GENERI E MOOD</a>
-                </span>
-                <span class="menu-item">
-                    <a class="menu-link" href="#">NUOVE USCITE</a>
-                </span>
-                <span class="menu-item">
-                    <a class="menu-link" href="#">SCOPRI</a>
-                </span>   
+            <!-- Sidebar -->
+            <section class="sidebar">
+                <!-- Sezione sidebar -->
+                <div class="container-sidebar">
+                    
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="Logo">
+                    </div>
+    
+                    <!-- Menu principale -->
+                    <nav class="menu-side">
+                        <ul class="ul-side">
+                            <li class="side-item select-left">
+                                <a href=""><i class="fas fa-home fnt-size-20"></i></a>
+                                <a class="side-link" href="#">
+                                     Home 
+                                </a> 
+                            </li>
+                            <li class="side-item">
+                                <a href="#"><i class="fas fa-search fnt-size-20"></i></a>
+                                <a class="side-link" href="#">
+                                     Cerca
+                                </a>  
+                            </li>
+                            <li class="side-item">
+                                <a href="#"><i class="fas fa-bars fnt-size-20"></i></a>
+                                <a class="side-link" href="#">
+                                    La tua libreria
+                                </a> 
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Menu principale -->
+    
+                    <!-- Menu Playlist -->
+                    <div class="playlist">
+                        <div class="crea-playlist">
+                            <h5>PLAYLIST</h5>
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                                <span id="playlist">Crea Playlist</span>
+                            </a>   
+                        </div>
+                    </div>
+                    <nav class="menu-playlist">
+                        <ul class="ul-side">
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li>         
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li>      
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li>  
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li>         
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li>      
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li> 
+                            <li class="playlist-item">
+                                <a class="playlist-link" href="#">Nome playlist</a> 
+                            </li>  
+                        </ul>
+                    </nav>
+                    <!-- Menu playlist -->
 
-            </div>
-            <!-- Sezione menu -->
-            
-        </header>
-        <!-- Header -->
+                    <!-- Sezione account -->
+                    <div class="app">
+                        <a href="#" class="installa-app">
+                            <i class="fas fa-arrow-circle-down"></i> 
+                            Installa app
+                        </a>
+                        <div class="separazione"></div>
+                        <div class="account">
+                            <a href="#" class="link-account">
+                                <i id="user" class="fas fa-user-circle font-size-20"></i>
+                                <span class="name">Jhon Doe</span> 
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Sezione account -->
+    
+                </div>
+                <!-- Sezione sidebar -->
+            </section>
+            <!-- Sidebar -->
 
-        <!-- Songlist -->
-        <main>
+            <!-- Songlist -->
             <div class="container-songlist">
                 <!-- Sezione song-list -->
                 <div class="box-songlist">
 
+                    <!-- Menu -->
+                    <div class="container-menu">
+
+                        <div class="box-menu">
+                            <span class="menu-item">
+                                <a class="menu-link" href="#">IN EVIDENZA</a>
+                                <div class="select-bottom"></div>
+                            </span>
+                            <span class="menu-item">
+                                <a class="menu-link" href="#">PODCAST</a>
+                            </span>
+                            <span class="menu-item">
+                                <a class="menu-link" href="#">CLASSIFICHE</a>
+                            </span>
+                            <span class="menu-item">
+                                <a class="menu-link" href="#">GENERI E MOOD</a>
+                            </span>
+                            <span class="menu-item">
+                                <a class="menu-link" href="#">NUOVE USCITE</a>
+                            </span>
+                            <span class="menu-item">
+                                <a class="menu-link" href="#">SCOPRI</a>
+                            </span>   
+                        </div>
+
+                    </div>
+                    <!-- Menu -->
+
                     <!-- Songlist row 1 -->
-                    <h2 class="songlist-title mrg-top-25">Recently played</h2>
+                    <h2 class="songlist-title mrg-top-160">Recently played</h2>
                     <div class="row mrg-top-15">
 
-                        <div class="song">
+                        <div class="song mrg-left-10">
                             <img class="img-row" src="img/metal_lifting.jpg" alt="Locandina Metal">
                             <i class="far fa-play-circle play-song"></i>
                             <h4>Heavy Metal</h4>
@@ -117,14 +211,14 @@
                     <p class="info-title">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="row">
 
-                        <div class="song">
+                        <div class="song mrg-left-10">
                             <img class="img-row" src="img/radar.jpeg" alt="Release Radar">
-                            <i class="far fa-play-circle play-song"></i>
+                            <i class="far fa-play-circle play-song-2"></i>
                             <h4>Release Radar</h4>
                         </div>
                         <div class="song mrg-left-10">
                             <img class="img-row" src="img/mixdaily.jpeg" alt="Daily Mix 1">
-                            <i class="far fa-play-circle play-song"></i>
+                            <i class="far fa-play-circle play-song-2"></i>
                             <h4>Daily Mix 1</h4>
                         </div>
                         
@@ -132,11 +226,11 @@
                     <!-- Songlist row 2 -->
                     
                     <!-- Songlist row 3 -->
-                    <h2 class="songlist-title mrg-top-25">Artisti più popolari</h2>
+                    <h2 class="songlist-title mrg-top-50">Artisti più popolari</h2>
                     <p class="info-title">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="row">
 
-                        <div class="song">
+                        <div class="song mrg-left-10">
                             <img class="img-row circle" src="img/youg.jpeg" alt="Release Radar">
                             <h4>Lana del Ray</h4>
                         </div>
@@ -151,84 +245,9 @@
                 </div>
                 <!-- Sezione song-list -->
             </div>
+            <!-- Songlist -->
+
         </main>
-        <!-- Songlist -->
-
-        <!-- Sidebar -->
-        <section class="sidebar">
-            <!-- Sezione sidebar -->
-            <div class="container-sidebar">
-                
-                <div class="logo">
-                    <img src="img/logo.svg" alt="Logo">
-                </div>
-
-                <!-- Menu principale -->
-                <nav class="menu-side">
-                    <ul class="ul-side">
-                        <li class="side-item select-left">
-                            <a href=""><i class="fas fa-home fnt-size-20"></i></a>
-                            <a class="side-link" href="#">
-                                 Home 
-                            </a> 
-                        </li>
-                        <li class="side-item">
-                            <a href="#"><i class="fas fa-search fnt-size-20"></i></a>
-                            <a class="side-link" href="#">
-                                 Cerca
-                            </a>  
-                        </li>
-                        <li class="side-item">
-                            <a href="#"><i class="fas fa-bars fnt-size-20"></i></a>
-                            <a class="side-link" href="#">
-                                La tua libreria
-                            </a> 
-                        </li>
-                    </ul>
-                </nav>
-                <!-- Menu principale -->
-
-                <!-- Menu Playlist -->
-                <div class="playlist">
-                    <div class="crea-playlist">
-                        <h5>PLAYLIST</h5>
-                        <a href="#">
-                            <i class="fas fa-plus"></i>
-                            <span id="playlist">Crea Playlist</span>
-                        </a>   
-                    </div>
-                </div>
-                <nav class="menu-playlist">
-                    <ul class="ul-side">
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li>         
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li>      
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li>  
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li>         
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li>      
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li> 
-                        <li class="playlist-item">
-                            <a class="playlist-link" href="#">Nome playlist</a> 
-                        </li>  
-                    </ul>
-                </nav>
-                <!-- Menu playlist -->
-
-            </div>
-            <!-- Sezione sidebar -->
-        </section>
-        <!-- Sidebar -->
 
         <!-- Gestione contenuti -->    
         <footer>
@@ -236,37 +255,28 @@
             <!-- barra gestione contenuti -->
             <div class="container-footer">
 
-                <!-- Sezione account -->
-                <div class="app">
-                    <a href="#" class="installa-app">
-                        <i class="fas fa-arrow-circle-down"></i> 
-                        Installa app
-                    </a>
-                    <div class="separazione"></div>
-                    <div class="account">
-                        <a href="#" class="link-account">
-                            <i id="user" class="fas fa-user-circle font-size-20"></i>
-                            <span class="name">Jhon Doe</span> 
-                        </a>
-                    </div>
-                </div>
-                <!-- Sezione account -->
-
                 <!-- Sezione Gestione -->
                 <div class="box-footer">
 
                     <!-- Sezione info -->
-                    <div class="info-brano">
+                    <div class="box-info">
                         <img id="img-info" src="img/sinister.jpeg" alt="">
-                        <div class="info">
-                            <a class="artist" href="#">Sinister</a>
-                            <a class="song-name" href="#">Brano nome</a>
-                            <a class="item" href="#">
-                                <i class="far fa-heart"></i>
-                                <i class="far fa-folder mrg-left-15"></i>
-                            </a>
+                        <div class="info-brano">
+                            <div class="info">
+                                <a class="artist" href="#">Sinister</a>
+                                <a class="song-name" href="#">Brano nome</a>
+                            </div> 
+                            <div class="item-box">  
+                                <a class="item" href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a class="item" href="#">
+                                    <i class="far fa-folder mrg-left-15"></i>
+                                </a>  
+                            </div> 
                         </div>
                     </div>
+                        
                     <!-- Sezione info -->
 
                     <!-- Sezione play -->
@@ -278,7 +288,7 @@
                             <a class="barra-item" href="#">
                                 <i class="fas fa-chevron-left"></i>
                             </a>
-                            <a class="barra-item fnt-size-20" href="#">
+                            <a class="barra-item fnt-size-40" href="#">
                                 <i class="far fa-play-circle"></i>
                             </a>
                             <a class="barra-item" href="#">
@@ -289,13 +299,13 @@
                             </a>
                         </div>
                         <div class="tempo">
-                            <span>0:25</span>
+                            <span class="time">0:25</span>
                             <div class="barra-tempo">
                                 <div class="barra-tempo-white">
                                     <div class="pallino"></div>
                                 </div>
                             </div> 
-                            <span>4:35</span>
+                            <span class="time">4:35</span>
                         </div> 
                     </div>
                     <!-- Sezione play -->
