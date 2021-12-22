@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bonus.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
     <title>Spotify</title>
@@ -48,13 +49,13 @@
                                      Home 
                                 </a> 
                             </li>
-                            <li class="side-item">
+                            <li class="side-item select-center">
                                 <a href="#"><i class="fas fa-search fnt-size-20"></i></a>
                                 <a class="side-link" href="#">
                                      Cerca
                                 </a>  
                             </li>
-                            <li class="side-item">
+                            <li class="side-item select-right">
                                 <a href="#"><i class="fas fa-bars fnt-size-20"></i></a>
                                 <a class="side-link" href="#">
                                     La tua libreria
@@ -141,18 +142,23 @@
                             </span>
                             <span class="menu-item">
                                 <a class="menu-link" href="#">PODCAST</a>
+                                <div class="select-bottom-gray"></div>
                             </span>
                             <span class="menu-item">
                                 <a class="menu-link" href="#">CLASSIFICHE</a>
+                                <div class="select-bottom-gray"></div>
                             </span>
                             <span class="menu-item">
                                 <a class="menu-link" href="#">GENERI E MOOD</a>
+                                <div class="select-bottom-gray"></div>
                             </span>
                             <span class="menu-item">
                                 <a class="menu-link" href="#">NUOVE USCITE</a>
+                                <div class="select-bottom-gray"></div>
                             </span>
                             <span class="menu-item">
                                 <a class="menu-link" href="#">SCOPRI</a>
+                                <div class="select-bottom-gray"></div>
                             </span>   
                         </div>
 
@@ -161,51 +167,63 @@
 
                     <!-- Songlist row 1 -->
                     <h2 class="songlist-title mrg-top-160">Recently played</h2>
-                    <div class="row mrg-top-15">
+                    <div class="row mrg-top-30">
 
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/metal_lifting.jpg" alt="Locandina Metal">
-                            <i class="far fa-play-circle play-song"></i>
+                        <div class="song mrg-left-15">
+                            <div class="img">
+                                <img class="img-row" src="img/metal_lifting.jpg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Heavy Metal</h4>
                             <div class="info-songlist">
                                 Subtitle
                             </div>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/stranger.jpeg" alt="Locandian Stranger Things">
-                            <i class="far fa-play-circle play-song"></i>
+                        <div class="song mrg-left-15">
+                            <div class="img">
+                                <img class="img-row" src="img/stranger.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
                             <div class="info-songlist">
                                 Kyle Dixon & Michael Stein
                             </div>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/aquietplace.jpeg" alt="Locandian A quiet place">
-                            <i class="far fa-play-circle play-song"></i>
+                        <div class="song mrg-left-15 none-3">
+                            <div class="img">
+                                <img class="img-row" src="img/aquietplace.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>A quiet place</h4>
                             <div class="info-songlist">
                                 Subtitle
                             </div>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/split.jpeg" alt="Locandian Split">
-                            <i class="far fa-play-circle play-song"></i>
+                        <div class="song mrg-left-15 none-2">
+                            <div class="img">
+                                <img class="img-row" src="img/split.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Split</h4>
                             <div class="info-songlist">
                                 Subtitle
                             </div>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/cure.jpeg" alt="Locandina A cure for wellness">
-                            <i class="far fa-play-circle play-song"></i>
+                        <div class="song mrg-left-15 none">
+                            <div class="img">
+                                <img class="img-row" src="img/cure.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>A cure for wellness</h4>
                             <div class="info-songlist">
                                 Subtitle
                             </div>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/sinister.jpeg" alt="Sinister">
-                            <i class="far fa-play-circle play-song"></i>
+                        <div class="song mrg-left-15 none">
+                            <div class="img">
+                                <img class="img-row" src="img/sinister.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Sinister</h4>
                             <div class="info-songlist">
                                 Subtitle
@@ -219,14 +237,18 @@
                     <p class="info-title">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="row">
 
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/radar.jpeg" alt="Release Radar">
-                            <i class="far fa-play-circle play-song-2"></i>
+                        <div class="song mrg-left-15">
+                            <div class="img">
+                                <img class="img-row" src="img/radar.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Release Radar</h4>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row" src="img/mixdaily.jpeg" alt="Daily Mix 1">
-                            <i class="far fa-play-circle play-song-2"></i>
+                        <div class="song mrg-left-15">
+                            <div class="img">
+                                <img class="img-row" src="img/mixdaily.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Daily Mix 1</h4>
                         </div>
                         
@@ -238,12 +260,18 @@
                     <p class="info-title">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="row">
 
-                        <div class="song mrg-left-10">
-                            <img class="img-row circle" src="img/youg.jpeg" alt="Release Radar">
+                        <div class="song mrg-left-15">
+                            <div class="img">
+                                <img class="img-row circle" src="img/youg.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Lana del Ray</h4>
                         </div>
-                        <div class="song mrg-left-10">
-                            <img class="img-row circle" src="img/einaudi.jpeg" alt="Daily Mix 1">
+                        <div class="song mrg-left-15">
+                            <div class="img">
+                                <img class="img-row circle" src="img/einaudi.jpeg" alt="Locandina Metal">
+                                <i class="far fa-play-circle play-song"></i>
+                            </div>
                             <h4>Ludovico Einaudi</h4>
                         </div>
                         
@@ -283,7 +311,6 @@
                             </div> 
                         </div>
                     </div>
-                        
                     <!-- Sezione info -->
 
                     <!-- Sezione play -->
@@ -317,13 +344,33 @@
                     </div>
                     <!-- Sezione play -->
 
+                    <!-- Gestione tempo SX -->
+                    <div class="gestione-tempo-sx">
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-random"></i>
+                        </a>
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a class="barra-item fnt-size-40" href="#">
+                            <i class="far fa-play-circle"></i>
+                        </a>
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-redo-alt"></i>
+                        </a>
+                    </div>
+                    <!-- Gestione tempo SX -->
+
                     <!-- Sezione sound -->
                     <div class="container-sound-item">
                         <div class="box-sound-item">
-                            <a class="sound-item" href="#">
+                            <a class="sound-item no-sx" href="#">
                                 <i class="fas fa-bars"></i>
                             </a>
-                            <a class="sound-item" href="#">
+                            <a class="sound-item no-sx" href="#">
                                 <i class="fas fa-desktop"></i>
                             </a>
                             <a class="sound-item" href="#">
@@ -340,6 +387,37 @@
                     
                 </div>
                 <!-- Sezione Gestione -->
+
+                <!-- Sezione play SX -->
+                <div class="barra-play-sx">
+                    <div class="gestione-tempo">
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-random"></i>
+                        </a>
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a class="barra-item fnt-size-40" href="#">
+                            <i class="far fa-play-circle"></i>
+                        </a>
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a class="barra-item" href="#">
+                            <i class="fas fa-redo-alt"></i>
+                        </a>
+                    </div>
+                    <div class="tempo">
+                        <span class="time">0:25</span>
+                        <div class="barra-tempo">
+                            <div class="barra-tempo-white">
+                                <div class="pallino"></div>
+                            </div>
+                        </div> 
+                        <span class="time">4:35</span>
+                    </div> 
+                </div>
+                <!-- Sezione play SX-->
 
             </div>
             <!-- barra gestione contenuti -->

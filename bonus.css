@@ -1,0 +1,310 @@
+/* Hover */
+
+.playlist-link:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    padding-left: 15px;
+}
+
+.song:hover .img-row {
+    transition: 0.8s;
+    filter: contrast(115%) grayscale(80%);
+    transform: scale(0.92);
+}
+
+.song:hover h4{
+    transition: 0.8s;
+    transform: scale(0.92);
+    padding-top: 2px;
+}
+
+.song:hover .info-songlist{
+    transition: 0.8s;
+    transform: scale(0.95);
+}
+
+.menu-item:hover {
+    color: #fff;
+    transition: 0.6s;
+    transform: scale(1.2);
+    padding: 0px 10px;
+}
+
+.menu-item:hover .select-bottom-gray {
+    display: block;
+}
+
+.btn-upgrade:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.fa-play-circle:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.select-center:hover {
+    box-sizing: border-box;
+    border-left: 2px solid #717171;
+}
+
+.select-right:hover {
+    box-sizing: border-box;
+    border-left: 2px solid #717171;
+}
+
+.barra-tempo:hover .barra-tempo-white {
+    animation: 3s barra-tempo linear;
+}
+
+@keyframes barra-tempo {
+    85% {
+        width: 85%;
+    }
+}
+
+.barra-sound:hover .barra-white {
+    animation: 1s barra-tempo linear;
+}
+
+@keyframes barra-tempo {
+    85% {
+        width: 85%;
+    }
+}
+/* Hover */
+
+/* Scomparsa seconda fila */
+@media only screen and (max-width: 1000px) {
+
+    .none {
+        display: none;
+    }
+
+    .box-songlist {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .none-2 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .none-3 {
+        display: none;
+    }
+
+    .box-songlist {
+        height: 1300px;
+    }
+}
+
+/* Scomparsa seconda fila */
+
+/* Modifica footer layout XS */
+@media only screen and (max-width: 600px) {
+
+    .container-footer {
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        z-index: 4;
+        bottom: 0;
+        background-color: #282828;
+    }
+
+    .box-footer {
+        width: 100%;
+        height: 60px;
+        background-color: #282828;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box-sound-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: -5px;
+        width: 40px;
+    }
+
+    .box-info {
+        display: flex;
+    }
+
+    .info-brano {
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 20px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .item-box {
+        display: none;
+    }
+
+    .artist {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .song-name {
+        font-size: 13px;
+        color: #717171;
+    }
+
+    .tempo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .barra-play {
+        margin-top: 15px;
+        width: 40%;
+        display: none;
+    }
+
+    .barra-play-sx {
+        margin-left: 5%;
+        margin-top: 10px;
+        width: 90%;
+        display: block;
+    }
+
+    .barra-item {
+        color: #fff;
+    }
+
+    .tempo {
+        color: #fff;
+        margin-top: 5px;
+    }
+
+    .barra-tempo {
+        margin-top: 7px;
+        height: 3px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0px solid;
+        background-color: #717171;
+        border-radius: 50px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .barra-tempo-white {
+        height: 3px;
+        width: 15%;
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 0px solid #fff;
+        border-radius: 50px;
+        position: relative;
+    }
+
+    .container-sound-item {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .gestione-tempo {
+        display: none;
+    }
+
+    .gestione-tempo-sx {
+        padding-left: 5px;
+        padding-top: 15px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fnt-size-40 {
+        font-size: 40px;
+    }
+
+    .sound-item {
+        margin-right: 5px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .no-sx {
+        display: none;
+    }
+
+    .barra-white {
+        height: 3px;
+        width: 30px;
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 0px solid #fff;
+        border-radius: 50px;
+    }
+
+    .barra-sound {
+        margin-top: 7px;
+        height: 3px;
+        width: 120px;
+        box-sizing: border-box;
+        border: 0px solid;
+        border-radius: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #717171;
+    }
+
+    .pallino {
+        height: 10px;
+        width: 10px;
+        box-sizing: border-box;
+        border: 0px solid ;
+        border-radius: 50px;
+        background-color: #fff;
+        margin-left: 98%;
+        position: relative;
+        bottom: 3px;
+        display: none;
+    }
+
+    .box-songlist {
+        height: 1400px;
+    }
+}
+/* Modifica footer layout XS */
+
+/* Sezione upgrade */
+@media only screen and (max-height: 400px) {
+
+    .container-upgrade {
+        display: none;
+    }
+
+    .container-menu {
+        padding-bottom: 80px;
+    }
+
+    .mrg-top-160 {
+        margin-top: 100px;
+    }
+
+}
+/* Sezione upgrade */
